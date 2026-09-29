@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.note-form {
+    width: 90%;
+    max-width: 500px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    padding: 11px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#addNote {
+    background-color: #ffd966;
+}
+
+#clearAll {
+    background-color: #ff9999;
+    margin-left: 5px;
+}
+
+#notesContainer {
+    width: 90%;
+    max-width: 900px;
+    margin-top: 30px;
+}
+
+#notesContainer > div {
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    min-height: 150px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+#notesContainer button {
+    margin-right: 5px;
+    background-color: white;
+}
